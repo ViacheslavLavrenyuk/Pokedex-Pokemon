@@ -1,4 +1,4 @@
-const POKEMON_LIST_URL = 'http://pokeapi.co/api/v2/pokemon/?limit=151';
+const POKEMON_LIST_URL = 'https://pokeapi.co/api/v2/pokemon/?limit=151';
 
 function loadData(url) {
   return fetch(url)

@@ -22,7 +22,7 @@ const App = () => {
   }, [limit]);
 
   const handleOnClick = (id) => {
-    fetch(`http://pokeapi.co/api/v2/pokemon/${id}/`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
       .then(res => res.json())
       .then((data) => {
         const pokemonTypes = [];
