@@ -1,0 +1,26 @@
+.pokemon-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.button:focus,
+.button {
+  margin: 10px auto;
+  width: 400px;
+  background-color: #008cff;
+  transition: 0.3s;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+
+  @media screen and (max-width: 580px) {
+    width: 200px;
+  }
+}
+
+.button:hover {
+  background-color: #007cff;
+}
